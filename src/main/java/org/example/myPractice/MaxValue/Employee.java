@@ -17,7 +17,7 @@ public class Employee {
 
         Set<String> deptSet = employeeMap.keySet();
         Iterator iterator = deptSet.iterator();
-
+        //this is deptName
         String deptName = "";
         int maxS = 0;
         HashMap<String, Integer> maxSalaryMap = new HashMap<String, Integer>();
